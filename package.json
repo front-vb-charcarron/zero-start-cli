@@ -1,0 +1,35 @@
+{
+  "name": "zero-start-cli",
+  "version": "1.0.0",
+  "description": "The building of cli from scratch.",
+  "main": "",
+  "scripts": {
+    "build": "webpack --config ./webpack.prod.conf.js",
+    "dev": "webpack-dev-server --progress --inline --config ./webpack.dev.conf.js"
+  },
+  "keywords": [],
+  "author": "charcarron",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^4.1.1",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "vue-loader": "^15.9.3",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.1.1"
+  },
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  }
+}
