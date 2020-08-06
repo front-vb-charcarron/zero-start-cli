@@ -24,6 +24,23 @@ module.exports = {
         test: /\.css$/,
         use: ["vue-style-loader", "style-loader", "css-loader"],
       },
+      // 由于vue-style-loader无法渲染less和scss样式,故使用style-loader
+      {
+        test: /\.scss$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          'sass-loader'
+        ]
+      },
+      {
+        test: /\.less$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          'less-loader'
+        ]
+      },
       {
         test: /\.(jpe?g|png|gif|ico)$/i,
         include: /src/,

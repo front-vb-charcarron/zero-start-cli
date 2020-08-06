@@ -17,6 +17,10 @@
     "css-loader": "^4.1.1",
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.3.0",
+    "less": "^3.12.2",
+    "less-loader": "^6.2.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.3",
     "style-loader": "^1.2.1",
     "url-loader": "^4.1.0",
     "vue-loader": "^15.9.3",
@@ -28,6 +32,7 @@
     "webpack-merge": "^5.1.1"
   },
   "dependencies": {
+    "build": "^0.1.4",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
